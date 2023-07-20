@@ -1,0 +1,154 @@
+body{
+    background-image: url("images/bg.png");
+}
+.card {
+    display: flex;
+    background-color: #fbf9f9;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 40px;
+    box-shadow: 0 12px 14px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img {
+    width: 500px;
+    height: 500px;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .card-content
+  {
+    border-left: #E1AEFF solid;
+  }
+
+  .card-content2
+  {
+    border-left: #ea613b solid;
+  }
+  
+  .card-title {
+    color: #9336B4;
+    font-size: 40px;
+    text-align: center;
+   padding-left: 35%;
+  }
+  
+  .card-description {
+    font-size: 16px;
+    color: #555;
+  }
+
+  .form__group {
+    position: relative;
+    padding: 20px 0 0;
+    width: 100%;
+    max-width: 250px;
+    margin-left: 220px;
+  }
+  
+  .form__field {
+    font-family: inherit;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #9b9b9b;
+    outline: 0;
+    font-size: 17px;
+    color: #dc0808;
+    padding: 7px 0;
+    background: transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .form__field::placeholder {
+    color: transparent;
+  }
+  
+  .form__field:placeholder-shown ~ .form__label {
+    font-size: 18px;
+    cursor: text;
+    top: 20px;
+  }
+  
+  .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+  
+    color: #9b9b9b;
+    pointer-events: none;
+  }
+  
+  .form__field:focus {
+    padding-bottom: 6px;
+    font-weight: 700;
+    border-width: 3px;
+    border-image: linear-gradient(to right, #df1fa2, #98548a);
+    border-image-slice: 1;
+  }
+  
+  .form__field:focus ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 17px;
+    color: #f008d1;
+    font-weight: 700;
+  }
+  
+  
+  .form__field:required, .form__field:invalid {
+    box-shadow: none;
+  }
+  
+  .hr{
+    padding-left: 20px;
+  }
+
+.cw{
+    padding-left: 180px;
+}
+.link
+{
+    display: flex;
+}
+  
+
+.icon{
+gap:30%;
+
+margin-left: 300px;
+}
+
+.Dont{
+    margin-left: 250px;
+}
+
+button {
+
+  margin-left: 60%;
+  width: 100px;
+  height: 40px;
+  border: 3px solid #910dce;
+  border-radius: 45px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1em;
+  font-weight: 550;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover {
+  background: #b204e7;
+  color: white;
+  font-size: 1.2em;
+}
+
+#btn:hover
+{
+  background: #e84b4b;
+  color: white;
+}

@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef Food</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="header">
+        <img class="logo" src="/images/logo.jpeg" alt="logo" width="120px">
+        <div class="item">
+            <a class="a" href="menu.html">Menu</a>
+        </div>
+        <div class="item"> <a class="a" href="">FastFoods</a></div>
+        <div class="item"> <a class="a" href="">Sweets</a></div>
+        <div class="item"> <a class="a" href="">Book a table</a></div>
+
+        <div class="group">
+            <svg class="icon" aria-hidden="true" viewBox="0 0 24 24">
+                <g>
+                    <path
+                        d="M21.53 20.47l-3.66-3.66C19.195 15.24 20 13.214 20 11c0-4.97-4.03-9-9-9s-9 4.03-9 9 4.03 9 9 9c2.215 0 4.24-.804 5.808-2.13l3.66 3.66c.147.146.34.22.53.22s.385-.073.53-.22c.295-.293.295-.767.002-1.06zM3.5 11c0-4.135 3.365-7.5 7.5-7.5s7.5 3.365 7.5 7.5-3.365 7.5-7.5 7.5-7.5-3.365-7.5-7.5z">
+                    </path>
+                </g>
+            </svg>
+            <input placeholder="Search your food" type="search" class="input">
+        </div>
+
+
+        <a class="truck" href=""><img width="30" height="30"
+                src="https://img.icons8.com/ios-filled/100/in-transit--v1.png" alt="in-transit--v1" /></a>
+
+        <a class="cart" href=""><img width="30" height="30"
+                src="https://img.icons8.com/material/24/shopping-cart--v1.png" alt="shopping-cart--v1" /></a>
+
+        <a class="heart" href=""><img width="30" height="30" src="https://img.icons8.com/material/24/like--v1.png"
+                alt="like--v1" /></a>
+
+        <img class="pro" src="/images/profile.png" alt="profile" width="3%" height="3%">
+    </div>
+
+
+    <div class="slideshow">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/images/pic1.jpg" class="d-block w-100" alt="pic1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/pic3.jpg" class="d-block w-100" alt="pic2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/images/pic4.jpg" class="d-block w-100" alt="pic3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <br>
+
+    <h2 class="hd2">Todays Specials</h2>
+    <div class="Discount">
+        <div class="column">
+            <div class="cards" style="width: 18rem;">
+                <img src="/images/chicken biriyani.jpg" class="card-img-top" height="40%" width="40%"
+                    alt="img">
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title"><b>Chicken Biryani</b></h5>
+                    <p class="card-text"></p>
+                    <hr>
+                    <h4>Prize:<del>₹350</del><ins> ₹200</ins></h4>
+                    <hr>
+                    <a href="#" class="btn btn-primary">Place Order</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <div class="cards" style="width: 18rem;">
+                <img src="/images/Veg Briyani.jpg" class="card-img-top" height="40%" width="40%" alt="img">
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title"><b>Veg Biryani</b></h5>
+                    <p class="card-text"></p>
+                    <hr>
+                    <h4>Prize:<del>₹300</del><ins> ₹150</ins></h4>
+                    <hr>
+                    <a href="#" class="btn btn-primary">Place Order</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="column">
+            <div class="cards" style="width: 18rem;">
+                <img src="/images/chicken fried rice.jpg" class="card-img-top" height="40%" width="40%" alt="img">
+                <div class="card-body">
+                    <br>
+                    <h5 class="card-title"><b>Chicken Fried Rice</b></h5>
+                    <p class="card-text"></p>
+                    <hr>
+                    <h4>Prize:<del>₹320</del><ins> ₹180</ins></h4>
+                    <hr>
+                    <a href="#" class="btn btn-primary">Place Order</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <h2 class="hd2">Popular Dishes</h2>
+    <div class="popular">
+        <div class="card" style="width: 18rem;">
+            <img src="/images/burkar.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><b>Burger Mania</b></h5>
+                <p class="card-text">We all need to make time for a burger once in awhile</p>
+                <hr>
+                <h4>Prize:₹100</h4>
+                <hr>
+                <a href="#" class="btn btn-primary">Place Order</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/pizza.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><b>Pizza</b></h5>
+                <p class="card-text">The perfect lover is one who turns into a pizza at 4:00 A.M.</p>
+                <hr>
+                <h4>Prize:₹150</h4>
+                <hr>
+                <a href="#" class="btn btn-primary">Place Order</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/pasta.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><b>Pasta</b></h5>
+                <p class="card-text">Every fiber of my being is made of pasta,great to see cheese on pasta</p>
+                <hr>
+                <h4>Prize:₹130</h4>
+                <hr>
+                <a href="#" class="btn btn-primary">Place Order</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img src="/images/noodles.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"><b>Noodles</b></h5>
+                <p class="card-text">Peace will come to world when the people have enough noodles to eat</p>
+                <hr>
+                <h4>Prize:₹180</h4>
+                <hr>
+                <a href="#" class="btn btn-primary">Place Order</a>
+            </div>
+        </div>
+    </div>
+
+
+    <h2 class="hd2">Sweets</h2>
+    <div class="sweets">
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/Donut.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Donuts</h5>
+                        <p class="card-text">Take a moment to savor the anticipation as you select from our beautifully
+                            displayed assortment. Whether you're looking for a morning treat, an afternoon pick-me-up,
+                            or a late-night indulgence, our donuts are available throughout the day, ensuring you can
+                            satisfy your craving whenever it strikes.</p>
+
+                        <a href="#" class="btn btn-primary">More Donuts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/cupcake.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Cup Cakes</h5>
+                        <p class="card-text">For those seeking a personalized touch, we also offer custom cupcake
+                            orders. Let us know your preferred flavors, colors, and designs, and our pastry chefs will
+                            create a bespoke batch of cupcakes that will make your celebration truly memorable.</p><br>
+                        <a href="#" class="btn btn-primary">More Cup cakes</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sweets">
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/ice.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Ice Cream</h5>
+                        <p class="card-text">Whether you're seeking a refreshing treat on a sunny afternoon or a
+                            comforting dessert after a day of exploration, our ice cream is available throughout the
+                            day, ensuring you can satisfy your cravings whenever the mood strikes.</p><br>
+                        <a href="#" class="btn btn-primary">More Ice Creams</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-3" style="max-width: 540px;">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="/images/cake.jpg" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Cake</h5>
+                        <p class="card-text">For a truly personalized touch, we offer custom cake orders, allowing you
+                            to bring your vision to life. Share your preferences in terms of flavors, designs, and
+                            themes, and our pastry chefs will create a bespoke cake that reflects your unique style and
+                            adds an extra touch of magic to your celebration..</p>
+                        <a href="#" class="btn btn-primary">More Cakes</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div>
+        <footer>
+            <div class="container">
+              <div class="footer-content">
+                <div class="footer-logo">
+                  <img src="/images/logo.jpeg"  width="30%"  height="30%" alt="Hotel Name Logo">
+                </div>
+                
+                <div class="footer-menu">
+                 <center> <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Menu</a></li>
+                    <li><a href="">Fastfoods</a></li>
+                    <li><a href="">Book your Table</a></li>
+                    <li><a href="">Contact</a></li>
+                  </ul></center>
+                </div>
+              </div>
+              <div class="footer-bottom">
+                <p>&copy; 2023 Chef Food Restaurant. All rights reserved.</p>
+              </div>
+            </div>
+          </footer>
+          
+    </div>
+</body>
+
+</html>

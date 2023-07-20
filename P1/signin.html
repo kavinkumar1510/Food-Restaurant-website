@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn</title>
+    <link rel="stylesheet" href="signin.css">
+
+    <script>
+        function msg()
+        {
+            console.log("sfcub");
+        var na=document.getElementById('name').value;
+        var pa=document.getElementById('pass').value;
+        var exna="kavin"
+        var expa="kavi@123"
+        if (na.localeCompare(exna) + pa.localeCompare(expa) == 0)
+        {
+              window.location.href="home.html";
+        }
+        else{
+            alert("invalid user");
+        }
+    }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="card">
+        <div>
+            <img src="/images/sign.jpg" alt="Image" class="card-img">
+        </div>
+        <div class="card-content">
+            <h3 class="card-title">SignIn</h3>
+            <div class="card-description">
+                <div class="form__group field">
+                    <input type="text" class="form__field" id="name" placeholder="Name" required="">
+                    <label for="name" class="form__label">Name</label>
+                </div>
+                <div class="form__group field">
+                    <input type="password" class="form__field" id="pass" placeholder="Password" required="">
+                    <label for="name" class="form__label">Password</label>
+                </div>
+                <br>
+                <button onclick="msg()">LogIn</button>
+            </div>
+            <div class="link">
+                <p class="cw">--------------------- Or Continue with -------------------</p>
+            </div>
+            <div class="icon">
+                <img width="40" height="40" src="https://img.icons8.com/color/48/google-logo.png" alt="google-logo" />
+                <img width="44" height="44" src="https://img.icons8.com/fluency/48/facebook-new.png"
+                    alt="facebook-new" />
+            </div>
+            <p class="Dont">Dont'n have an account <a href="/signup.html">SignUp</a></p>
+
+
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>
